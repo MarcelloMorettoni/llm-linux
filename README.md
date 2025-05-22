@@ -1,4 +1,4 @@
-# OS Commander AI
+# llinux - the llm-linux
 
 OS Commander AI is a proof-of-concept web application that translates natural language into safe shell commands using an LLM (Large Language Model). Built with Streamlit, it allows users to query Linux/macOS system commands in plain English, review suggested shell commands, and execute them cautiously with built-in validation and security.
 
