@@ -50,6 +50,17 @@ Review the suggested shell command and choose whether to run it.
 
 ## Configuration
 
+I suggest you to use ollama:
+```
+pip install ollama
+```
+and then pull llama3, example:
+
+```
+ollama run llama3
+```
+However, it might work with another models.
+
 Edit `config.py` to:
 
 - Set your LLM API key and model
