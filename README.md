@@ -28,6 +28,14 @@ OS Commander AI is a proof-of-concept web application that translates natural la
    ```
 
 3. Configure your LLM API key and model in `config.py`:
+I suggest you to use ollama:
+
+pip install ollama
+and then pull llama3, example:
+
+ollama run llama3
+However, it might work with another models:
+
    ```python
    LLM_API_KEY = "your_api_key"
    LLM_MODEL_NAME = "your_model"
